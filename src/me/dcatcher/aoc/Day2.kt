@@ -17,7 +17,7 @@ class Day2 : Day {
     }
 
     override fun partB() {
-        val location = Position(0,0,0)
+        val location = Position(0, 0, 0)
         for (command in input) {
             runCommand(location, command)
         }
@@ -56,5 +56,4 @@ class Day2 : Day {
     operator fun Pair<Int, Int>.plus(other: Pair<Int, Int>): Pair<Int, Int> {
         return Pair(this.first + other.first, this.second + other.second)
     }
-
 }
