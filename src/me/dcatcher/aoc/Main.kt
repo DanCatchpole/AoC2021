@@ -1,7 +1,7 @@
 package me.dcatcher.aoc
 
 fun main() {
-    val today = Day1()
+    val today = Day2()
     today.partA()
     today.partB()
 }
